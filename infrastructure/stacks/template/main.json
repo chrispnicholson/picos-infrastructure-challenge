@@ -1,0 +1,13 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Basic infrastructure for a test",
+    "Parameters": {},
+    "Resources": {
+        "TestBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "chrisn-bucket-test"
+            }
+        }
+    }
+}
