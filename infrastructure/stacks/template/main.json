@@ -6,7 +6,7 @@
         "TestBucket": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-                "BucketName": "chrisn-bucket-test"
+                "BucketName": "shared-infrastructure-chrisn-bucket-test"
             }
         }
     }
